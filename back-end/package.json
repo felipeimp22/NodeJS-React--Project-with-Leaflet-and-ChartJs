@@ -1,0 +1,36 @@
+{
+  "name": "apiComGit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev-test": "nodemon -r dotenv/config index.js dotenv_config_path=.env.test ",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.6.13",
+    "mongoose-paginate": "^5.0.3",
+    "prettier": "^1.18.2",
+    "require-dir": "^1.2.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.2",
+    "sucrase": "^3.10.1"
+  }
+}

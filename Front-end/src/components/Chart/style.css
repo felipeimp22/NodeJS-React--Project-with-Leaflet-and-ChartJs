@@ -1,0 +1,14 @@
+.chartDiv{
+  /* /* display: flex; */
+ 
+  align-items: center;
+  justify-content: center; 
+
+  width: 160vh;
+  /* margin-top: 22vw;
+  margin-left: 30vw; */
+  margin-left: 10vw;
+  margin-top: 2vw;
+
+
+}

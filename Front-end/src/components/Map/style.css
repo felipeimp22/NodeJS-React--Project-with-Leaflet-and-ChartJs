@@ -1,0 +1,97 @@
+
+.modal{
+  /*   
+    display:flex;
+  justify-content:center;
+  align-items:center; */
+  
+   width: 100%;
+   height: 70vh;
+  
+   /* background-color: blue; */
+  }
+  .modalHeader{
+    display:flex;
+    flex-direction: row;
+  }
+  .modalHeader button{
+   margin-left: 2vw;
+   flex:0.1;
+font-weight:800;
+    width: 2vw;
+    color: #969696;
+/* box-shadow:0 0 3px 0.2px rgba(0, 0, 0, 0.2); */
+
+
+/* flex:0.2; */
+
+border: 1px solid #CCCC;
+border-radius:20px;
+font-size: 18px;
+  }
+  .modalHeader button:hover{
+    color: rgba(105, 195, 255, 1);
+
+  }
+  .modalId{
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+  }
+  .modalIdButton{
+    
+
+    margin-left: 20vw;
+    width: 2vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.4);
+    
+
+  }
+  .modalIdButton button{
+    flex:0.2;
+font-weight:800;
+margin-left: 5vw;
+    width: 2vw;
+    color: #969696;
+/* box-shadow:0 0 3px 0.2px rgba(0, 0, 0, 0.2); */
+
+
+/* flex:0.2; */
+
+border: 1px solid #CCCC;
+padding: 10px 15px;
+border-radius:10px;
+font-size: 18px;
+min-height: 2vh;
+min-width: 18vh;
+margin-right: 100vw;}
+
+  .chart{
+    width: 50%;
+  }
+
+
+  .search-control-icon-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(105, 195, 255, 1);
+
+  }
+
+  
+  .search-control-icon-button svg{
+     /* cor SVG */
+    /* fill: #0562dc; */
+      stroke: white;
+      stroke-width: 5;
+      stroke-width: 6;
+  }
+  .accordionContent {
+    margin-bottom: 2rem ;
+  }
+  .accordion-text{
+    margin-bottom: 20vh ;
+  }
+  

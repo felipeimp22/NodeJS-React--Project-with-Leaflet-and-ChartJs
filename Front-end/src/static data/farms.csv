@@ -1,0 +1,4 @@
+farm_id,name,latitude,longitude,culture,variety,total_area,yield_estimation,price
+221,Farm X,4.68566,-74.21133,soybean,XXX1,1000,60,72
+231,Farm Y,-20.41673,-48.75594,soybean,XXX2,900,85,81
+271,Farm Z,-22.946619,-45.580756,rice,XXX1,850,58,80.50
